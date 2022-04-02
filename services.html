@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EDC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg  d-none d-lg-block"  style="background-color: #cf2e2e;" id="templatemo_nav_top">
+        <div class="container text-light" style="background-color: #cf2e2e;">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-map-marker-alt mx-4 text-white"></i>
+                    <a class="navbar-sm-brand text-white text-decoration-none">Education& Development Connections ,Australia and Newzealand Curriculum</a>
+                    <!-- <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a> -->
+                </div>
+                <div>
+                    <a class="text-white" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <!-- <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a> -->
+                    <a class="text-white" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-white" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                <img src="assets/images/edc-logo.jpeg" alt="" style="height: 60px;">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-end" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-end mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="enrollment.html">Enrollment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stories.html">Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div> -->
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="">
+                    <div class="row ">
+                        <div class="mx-auto col-md-12 col-lg-12 text-center">
+                            <img class="img-fluid" src="./assets/images/services-1-carousel.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" ">
+                    <div class="row ">
+                        <div class="mx-auto col-md-12 col-lg-12 text-center">
+                            <img class="img-fluid" src="./assets/images/services-2-carousel.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="carousel-item">
+                <div class=" ">
+                    <div class="row">
+                        <div class="mx-auto col-md-12 col-lg-12 text-center">
+                            <img class="img-fluid" src="./assets/images/india-g2735525d7_1920.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+    <style>
+        .und {
+  text-decoration: solid underline pink 5px;
+}
+    </style>
+    <!-- Start Categories of The Month -->
+    <section class="container py-5">
+        <div class="row text-left pt-3">
+            <div class="col-lg-12 m-auto">
+                <h1 class="h1" style="font-weight: 400 !important;"><a class="h1" style="font-weight: 400 !important; text-decoration:none; color: #cf2e2e; ">O</a><a class="h1" style="font-weight: 400 !important; text-decoration:none; color: black;">ur </a><a class="h1" style="font-weight: 400 !important; text-decoration:none; color: #cf2e2e; ">D<a class="h1" style="font-weight: 400 !important; text-decoration:none; color: black;">epartment</a></h1>
+                <p>
+                    <b style="font-weight: 750;">“EDC introduces revolutionary interactive learning mentor for all participants. Newcomers, come and try EDC's initial trial class and test EDC's premium and convenient learning service.”</b>
+                </p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Watches</h5>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+        </div> -->
+    </section>
+    <!-- End Categories of The Month -->
+
+    <!-- services info starts -->
+    <section>
+        <div class="container">
+            <div class="col-12">
+                <div class="img fluid" style="padding: 20px;">
+                    <img src="assets/images/science.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Science</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Mathematics:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study numbers, shapes and patterns. Use logic and reasoning to solve problems. EDC offers mathematics from early childhood to high school and pre-university preparatory “bridging basics” courses. This subject is also best for students and professionals from non-mathematical background to develop their basic mastery in maths.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">General Science:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study natural sciences to understand how the world and universe around us works. EDC science offers all rounder natural sciences learning experience for primary and early secondary school learners. This subject is also best for students and professionals from non-scientific background to develop their basic mastery in science.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Biology:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study living things, from their physical structure, chemical composition, function, development and evolution. EDC offers Biology for senior high school learners to pre-university preparatory “bridging basics” courses. CHEMISTRY: study matter, its properties, how and why substances combine or separate to form other substances, and how substances interact with energy. EDC offers Chemistry for senior high school learners to pre-university preparatory “bridging basics” courses.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Physics:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study information about the largest galaxies to the smallest subatomic particles. Observe all matter, its motions, its behaviour through space and time and its relation to energy and force. EDC offers Physics for senior high school learners to pre-university preparatory “bridging basics” courses. GEOSCIENCE: Study the physical constituents of earth and its atmospheres. Discern geomorphology, soil study, hydrology, meteorology, climatology, and biogeography. EDC offers GeoScience for senior high school learners to pre-university preparatory “bridging basics” courses.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Technology:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study generic technology, role of unified technologies, and construction and mechanical technologies. Being alert of technology in this era is as important as needing to read and write. EDC offers Technology for senior high school learners to pre-university preparatory “bridging basics” courses. This subject is also best for students and professionals from non-technological background to develop their basic mastery in technology..
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Chemistry:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study matter, its properties, how and why substances combine or separate to form other substances, and how substances interact with energy. EDC offers Chemistry for senior high school learners to pre-university preparatory “bridging basics” courses.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Geoscience:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study the physical constituents of earth and its atmospheres. Discern geomorphology, soil study, hydrology, meteorology, climatology, and biogeography. EDC offers GeoScience for senior high school learners to pre-university preparatory “bridging basics” courses
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-center" style="padding: 20px;">
+                    <img src="assets/images/language.png" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Language</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <h3 style="color:#cf2e2e; padding: 10px;">English:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study grammar, literacy and communication of the English language, amongst the top three most spoken languages in the world. EDC offers English learning facilities to speakers of non-English backgrounds to help the learners develop their grammar, literacy and understanding of English. This subject is also best for students and professionals from non-English background to develop their conversational English strategies. EDC also offers sessions to cover school based syllabus for learners from an early childhood level, primary school level and high school levels. Furthermore, EDC offers pre-university preparatory “bridging basics” courses of English in grammar and academic writing
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Hindi and Urdu:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study grammar, literacy and communication and comparison of the Hindi and Urdu languages. These two languages are amongst the top recognised, most spoken languages in the world. EDC offers Hindi and Urdu combined learning facilities to speakers of non-hindi and urdu backgrounds. Course options include: beginners level, intermediate level, and advanced level.
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-end" style="padding: 20px;">
+                    <img src="assets/images/s-s-t.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Social Science</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Civics:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study the legal relationship between an individual and their residing country. Become globally aware of citizen rights and regulations. EDC offers Civics to primary and secondary school learners. This course is excellent for any learner aiming to enhance their global general knowledge.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Geography:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Write and draw about the earth studying Geography. Learn the earth's features, inhabitants and phenomena. EDC offers Geography to primary and secondary school learners. This course is excellent for any learner aiming to enhance their global general knowledge.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Law and Politics:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study the set of rules and guidelines that people are made to follow, from its universal similarities to differences and learn about the institutional and government bodies that are responsible to regulate it justly. EDC offers Law to secondary school learners. This course is excellent for any learner aiming to enhance their global general knowledge.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">History:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Study past people, locations and events from ancient times to modern times. Discover wisdom from past lessons to plan future engagements. EDC offers History to primary and secondary school learners. This course is excellent for any learner aiming to enhance their global general knowledge.
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-center" style="padding: 20px;">
+                    <img src="assets/images/ncea.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">NCEA</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 text-center" style="padding: 10px;">
+                    <h5>NCEA Level 1</h5>
+                    <p>English <br>
+                        Science <br>
+                        Biology<br>
+                        Physics<br>
+                        Chemistry<br>
+                        Maths<br>
+                        Accounting<br>
+                        Business Studies<br>
+                        Classics<br>
+                        Economics<br>
+                        Geography<br>
+                        History<br>
+                        Media Studies<br>
+                        Social Studies</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center" style="padding: 10px;">
+                    <h5>NCEA Level 2</h5>
+                    <p>English <br>
+                        Science <br>
+                        Biology<br>
+                        Physics<br>
+                        Chemistry<br>
+                        Maths<br>
+                        Accounting<br>
+                        Business Studies<br>
+                        Classics<br>
+                        Economics<br>
+                        Geography<br>
+                        History<br>
+                        Media Studies<br>
+                        Social Studies</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center" style="padding: 10px;">
+                    <h5>NCEA Level 3</h5>
+                    <p>English <br>
+                        Science <br>
+                        Biology<br>
+                        Physics<br>
+                        Chemistry<br>
+                        Maths<br>
+                        Accounting<br>
+                        Business Studies<br>
+                        Classics<br>
+                        Economics<br>
+                        Geography<br>
+                        History<br>
+                        Media Studies<br>
+                        Social Studies</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-start" style="padding: 20px;">
+                    <img src="assets/images/work-force-training.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Work Force Training</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <p><b>
+                        Training for work Employment Preparation Program is designed for individuals who are planning to start work. <br>
+                        This course will help individuals to learn and understand work ethics and how to prepare
+                        them for the workforce. This course is offered Eight times a year. EDC also offers short
+                        courses as well:
+                        </b>
+                    </p>
+                    <p><b>
+                        • C.V Writing and Cover Letter <br>
+                        • Interview Skills<br> 
+                        • Computer Skills<br>
+                        • Customer Services<br>
+                        • Work Ethics<br>
+                        • Communication Skills<br>
+                        • Writing for Business<br>
+                        • Back to Workforce<br>
+                        • Back to University<br>
+                        • Numeracy and Literacy (Basic)<br>
+                        • Numeracy and Literacy (Intermediate)<br>
+                        • Numeracy and Literacy (Advanced)<br>
+                        Numeracy and Literacy course is suitable for adult learners who are planning to start further
+                        studies, work or willing to start his or her own business. EDC staff working hours are 6am
+                        until 12:00am New Zealand time and EDC team is happy to walk with you extra mile.
+                    </b></p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-center" style="padding: 20px;">
+                    <img src="assets/images/competition.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Competitions</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <p class="text-center"><b>
+                        EDC will be running Math, English and Science competitions during a year. Mostly we will
+                        be running these Competitions during “School Holidays” to make sure each student have
+                        enough time to prepare and complete his or her task effectively. EDC will be providing each
+                        student their own Student ID number to address them to maintain their privacy. Once all
+                        assessments are marked according to their Student ID number each will be notify about
+                        their results and certificates will be posted to their residential address.
+                        EDC is a private Organisation and willing to offer Scholarships in future. EDC is also
+                        working with children with high needs and always love to help our community.
+                        </b>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="img fluid text-end" style="padding: 20px;">
+                    <img src="assets/images/iit.jpg" alt="science-image">
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <button type="button" class="col-12 btn btn-danger btn-lg">Business & IT</button>
+            </div>
+            <div class="col 12">
+                <div>
+                    <h3 style="color:#cf2e2e; padding: 10px;">HRM:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Learn the art to devise formal systems for the management of organisations and help maximize employee services as per employer goals. This subject is ideal for students and professionals to develop strategic techniques in managing people, work place environment and a positive work culture.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Management and Finance:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Learn to effectively manage business funds to meet the goals ot any organisation. This subject is best for students and professionals aiming to develop a better understanding on money management especially in a cooperate context.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Small Business Management:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Develop the skills to envision, develop and manage all aspects of a small independently owned company. Small businesses are very prominent and therefore this course is ideal for students and professionals aiming to affiliate or are already part of a small business.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">International Business:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The growth of companies cross borders are ongoing and insights into the global business and economic climates is equally important for proper managing of such businesses. This course aims to teach the internationalisation of enterprises, ideal for students and professionals aiming to eventually step foot in the international market.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Economics:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Resources and facilities are important and must be utilised wisely. This subject enlightens learners to understand production, distribution and consumption of goods and services, ideal for students and professionals to develop wanting to upskill in proper resource management strategies.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Business Communication:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The art of conveyance is essential and in the business world, a key factor to the success of the business. The eloquence, articulation, clarity and persuasion a business communicator uses strongly impacts the morale image and efficiency of the business. This subject is ideal for students and professionals who wish to have more effective command in business communication, a multidisciplinary art that can serve in all arenas of life.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Business Law:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Rules and regulations are to ensure ethical and fair practices for everyone. This course deals with set of guidelines specific for the business setting and is best for students and professionals aiming to affiliate with any business or cooperate organisation in the future.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">International Trade:</h3>
+                    <h6 style="padding-left: 5px;">
+                        An old states that, success is never built on an island. When trade takes place between many nations, a variety of goods can be accessible. This subject teaches the underlying principle of such capitals, goods and services across international borders, ideal for students and professionals wishing to upskill in the international trade concepts.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Computer & IT Courses:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Living in the information age, technology has become just as important as the ability to read and write. This course teaches multiple aspects of the use of gadgets to efficiently draw out planned tasks and communicate via tech tools. This course is dynamic with various topic options of choice to explore, ideal for students and professionals aiming to gain more confidence and ability in virtual technologies.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Hospitality:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Multibillion dollar industry, which at its basic stage, is a relationship between a guest and a host. This course aims to explain the fundamentals to accommodate people with comfort and warmth, ideal for students and professionals aiming to grasp expertness of positive human engagement and behaviour.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">Tourism:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Travelling is an attractive hobby and many times, a need for many people also. This course aims to teach the business of attracting, accommodating, and entertaining tourists, and the business of operating tours. This is ideal for students and professionals inclined towards adventure, travelling or have an interest for working in the tourism industry that intends to exceed 1.8 billion by 2030.
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="text-center">
+                    <h1 class="h1" style="font-weight: 400 !important;"><a class="h-2" style="font-weight: 600 !important; text-decoration:none; color: #cf2e2e; ">EDC </a><a class="h-2" style="font-weight: 600 !important; text-decoration:none; color: black;">also offer's services in the following preparations zone</a></h1>
+                </div>
+                <div class="text-start">
+                    <h1 class="h1" style="font-weight: 400 !important;"><a class="h-2" style="font-weight: 600 !important; text-decoration:none; color: black; ">Australian Qualifications Framework </a><a class="h-2" style="font-weight: 600 !important; text-decoration:none; color: #cf2e2e;">(AQF)</a></h1>
+                </div>
+                <div>
+                    <p style="font-weight: 500 !important;"> The Australian Curriculum is designed to help all young Australian to become successful
+                        learners, confident and creative individuals. Our main concern is to create a mandatory
+                        Australian Curriculum for all schools. <br><br>
+                        *English <br>
+                        *Science<br>
+                        *Mathematics<br>
+                        *Humanities and Social Sciences<br>
+                        *The Arts<br>
+                        *Technologies<br>
+                        *Health and Physical Education<br>
+                        *Languages</p>
+                </div>
+                <div>
+                    <h3 style="color:#cf2e2e; padding: 10px;">UMAT:</h3>
+                    <h6 style="padding-left: 5px;">
+                        Stands for Undergraduate Medicine and Health Sciences Admission Test is used specifically to assist with the selection of students into the medicine, dentistry and health science degree programs.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">GAMSAT:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The Graduate Australian Medical School Admissions Test is a test used to select candidates applying to study medicine, dentistry, optometry, physiotherapy, podiatry, pharmacy and veterinary science at Australian, British, and Irish universities for admission to their Graduate Entry Programmes.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">PTE:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The Pearson Test of English Academic (PTE Academic) is the English test trusted by universities, collages and governments around the world.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">IELTS:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The International English Language Testing System, or IELTS, is an international standardized test of English language proficiency for non-native English language speakers.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">SAT:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The SAT is a standardized test widely used for college admissions in the United States. These tests measure the same skills and knowledge in ways that make sense for different grade levels, so it's easier for students, parents, and educators to monitor student progress.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">MCAT:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The Medical College Admission Test (MCAT) is a computer-based standardized examination for prospective medical students in the United States, Australia, Canada, and Caribbean Islands. It is designed to assess problem-solving, critical thinking, written analysis and knowledge of scientific concepts and principles.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">GRE:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The GRE (Graduate Record Examinations) is a standardized test taken by students who are applying to postgraduate courses in the US and in some other parts of the world.
+                    </h6>
+                    <h3 style="color:#cf2e2e; padding: 10px;">MAT:</h3>
+                    <h6 style="padding-left: 5px;">
+                        The Miller Analogies Test (MAT) is a test of verbal skills (vocabulary and comprehension) and analytical thinking which the test makers have designed to be a predictor of success in graduate school and professional life. We provide comprehensive advisory support for students who are striving to gain entrance to elite universities in the UK, US and Australia. We also provide tutoring for CIE, NCEA, NZ Scholarship and IB subjects, as well as a range of other dynamic services designed to improve the candidacy of our clients. The International General Certificate of Secondary Education (IGCSE) is an English language curriculum offered to students to prepare them for International Baccalaureate, A Level and BTEC Level 3 (which is recommended for higher-tier students).
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services info ends -->
+    
+ <!-- footer starts -->
+ <div class="section" style="background-color: black; padding: 20px;">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-4 text-center" style="padding: 20px;">
+                 <p style="color: white;"> <b class="h2" style="font-weight: 800;">Location: </b></p>
+                 <p style="color: white;">AU, NZ</p>
+             </div>
+             <div class="col-lg-4 text-center" style="padding: 20px;">
+                <p style="color: white;"><b class="h2" style="font-weight: 800;">Mail Us: </b></p>
+                <p style="color: white;">Email : <a href="mailto:Amber@edc.ac.nz" style="text-decoration: none; color: #cf2e2e;">Amber@edc.ac.nz</a></p>
+            </div>
+            <div class="col-lg-4 text-center" style="padding: 20px;">
+                <p style="color: white;"><b class="h2" style="font-weight: 800;"> Opening Hours:</b></p>
+                <p style="color: white;">6 Am to 12 Am ( NZ time )</p>
+                <p style="color: white;">Monday to Sunday</p>
+            </div>
+         </div>
+         <div class="row">
+             <div class="col-lg-12 text-center" style="padding-top: 30px;">
+                <a href="#" style="text-decoration: none; color: white;">Home</a>&nbsp;&nbsp;<a href="#" style="text-decoration: none; color: white;">About Us</a>&nbsp;&nbsp; <a href="#" style="text-decoration: none; color: white;">Services</a>&nbsp;&nbsp; <a href="#" style="text-decoration: none; color: white;">Enrollment</a>&nbsp;&nbsp; <a href="#" style="text-decoration: none; color: white;">Stories</a>&nbsp;&nbsp; <a href="#" style="text-decoration: none; color: white;">Contact Us</a>&nbsp;&nbsp;
+             </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 text-center">
+                <span><i class="fa fa-facebook"></i></span>
+            </div>
+        </div>
+         <!-- <div class="row" style="margin-top: 30px;">
+             <div class="col-lg-12 text-center">
+                 <p style="color: white;">Copyright © 2022 EDC | Powered by EDC</p>
+             </div>
+         </div> -->
+     </div>
+ </div>
+    
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
